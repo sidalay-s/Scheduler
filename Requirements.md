@@ -62,7 +62,7 @@
 # PROGRAM
 
 
-### (EMPLOYEE)
+### (EMPLOYEES)
 
     - Enter & Save Employee information
     - Access Employees Individually
@@ -138,7 +138,7 @@ enum class ShiftPreference
 ---
 ## class Day
 
-        (Data Members):
+      (Data Members):
         - Name variable
             - const char* Name
         - Availability
@@ -152,7 +152,7 @@ enum class ShiftPreference
         - variable to check if its a weekend
             - bool IsWeekend{};
 
-        (Member Methods):
+      (Member Methods):
         - Get Available Shifts
             - Shift GetShifts();
         - Get Preference
@@ -169,15 +169,15 @@ enum class ShiftPreference
 
 ## class Shift
 
-        (Data Members):
-          - Container for available shifts
-              if HOST
-                - std::array<std::pairs<bool, float>, 5> Shifts;
-              if TOGO
-                - std::array<std::pairs<bool, float>, 4> Shifts;
+      (Data Members):
+        - Container for available shifts
+            if HOST
+              - std::array<std::pairs<bool, float>, 5> Shifts;
+            if TOGO
+              - std::array<std::pairs<bool, float>, 4> Shifts;
         
-        (Member Methods):
-          - Get Shift
-              - std::array GetShift();
-          - Set Shift
-              - void SetShift();
+      (Member Methods):
+        - Get Shift
+            - std::array GetShift();
+        - Set Shift
+            - void SetShift();
