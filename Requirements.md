@@ -74,7 +74,16 @@
 
 ### (SCHEDULER)
 
-    -   
+    - Cycle through Day
+      (Once inside of day)
+        - Cycle through employees
+          - Check for current day preference
+          (Once Inside of employee)
+            - Access day
+                - Access shift
+                - Check shift preference
+                    - Choose preferred shift
+
 
 ---
 enum class DayOfWeek 
